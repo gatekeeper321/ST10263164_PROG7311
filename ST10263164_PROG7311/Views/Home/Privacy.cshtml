@@ -1,6 +1,60 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    Layout = null; ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Preview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
-<p>Use this page to detail your site's privacy policy.</p>
+        .font-sample {
+            margin-bottom: 20px;
+        }
+
+            .font-sample h2 {
+                margin: 0;
+            }
+
+            .font-sample p {
+                font-size: 18px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Font Preview</h1>
+    <div class="font-sample" style="font-family: Arial, sans-serif;">
+        <h2>Arial</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-sample" style="font-family: 'Times New Roman', serif;">
+        <h2>Times New Roman</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-sample" style="font-family: 'Courier New', monospace;">
+        <h2>Courier New</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-sample" style="font-family: Verdana, sans-serif;">
+        <h2>Verdana</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-sample" style="font-family: Tahoma, sans-serif;">
+        <h2>Tahoma</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-sample" style="font-family: 'Comic Sans MS', cursive;">
+        <h2>Comic Sans MS</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+    <div class="font-sample" style="font-family: Impact, fantasy;">
+        <h2>Impact</h2>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+    </div>
+</body>
+</html>
